@@ -1,0 +1,75 @@
+#contenedor{
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+    background-color: #ffffff;
+}
+ul,ul li{
+    margin-left: 15px;
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+}
+h1,h2,h3,p,form{
+    margin: 0px;
+    padding: 0px;
+}
+.clear{
+    clear: both;
+}
+img{
+    border: none;
+}
+header,nav,aside,#contenedor article,#contenido,footer{
+    border: 2px solid #777777;
+}
+header{
+    background-color: #7ac034;
+    border: 1px solid #8ad719;
+}
+#contenido article header{
+    background-color: transparent;
+    border: none;
+}
+aside{
+    float: left;
+    width: 20%;
+}
+#contenido{
+    float: right;
+    width: 78%;
+}
+#contenido article{
+    float: left;
+    width: 73%;
+}
+#contenido aside{
+    float: right;
+    width: 20%;
+}
+footer{
+    clear: both;
+}
+header #logo{
+    float: left;
+}
+header #buscador{
+    float: right;
+}
+nav ul#menu_principal li{
+    display: inline;
+    float: left;
+}
+#contenido section img{
+    width: 100px;
+    float: left;
+}
+footer .enlaces{
+    float: left;
+}
+footer .copyright{
+    float: right;
+}
+aside #noticias{
+    border: 1px solid #777777;
+}
